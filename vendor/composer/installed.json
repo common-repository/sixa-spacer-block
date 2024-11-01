@@ -1,0 +1,121 @@
+{
+    "packages": [
+        {
+            "name": "sixach/wp-block-api",
+            "version": "v1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sixach/wp-block-api.git",
+                "reference": "64e527a5993146774275d0ec7d438da93bc46381"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sixach/wp-block-api/zipball/64e527a5993146774275d0ec7d438da93bc46381",
+                "reference": "64e527a5993146774275d0ec7d438da93bc46381",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3",
+                "sixach/wp-snippets": "^1.4.2"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-parallel-lint/php-parallel-lint": "^1.2.0",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^7",
+                "wp-coding-standards/wpcs": "^2.3.0"
+            },
+            "time": "2022-03-16T21:48:21+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "sixa AG",
+                    "homepage": "https://sixa.ch"
+                }
+            ],
+            "description": "Small collection of helpful interfaces and classes for the development of WordPress Blocks and Extensions.",
+            "homepage": "https://www.sixa.ch",
+            "keywords": [
+                "composer",
+                "library",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/sixach/wp-block-api/issues",
+                "source": "https://github.com/sixach/wp-block-api/tree/v1.0.3"
+            },
+            "install-path": "../sixach/wp-block-api"
+        },
+        {
+            "name": "sixach/wp-snippets",
+            "version": "v1.7.2",
+            "version_normalized": "1.7.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sixach/wp-snippets.git",
+                "reference": "d703873d0591ab4b06541b5ab87edf0a7e162396"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sixach/wp-snippets/zipball/d703873d0591ab4b06541b5ab87edf0a7e162396",
+                "reference": "d703873d0591ab4b06541b5ab87edf0a7e162396",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "php-parallel-lint/php-parallel-lint": "^1.2.0",
+                "phpcompatibility/phpcompatibility-wp": "^2.1",
+                "phpunit/phpunit": "^9",
+                "woocommerce/woocommerce-git-hooks": "*",
+                "woocommerce/woocommerce-sniffs": "*",
+                "wp-cli/i18n-command": "^2.2.6",
+                "wp-coding-standards/wpcs": "^2.3.0"
+            },
+            "time": "2022-03-19T21:06:47+00:00",
+            "type": "wordpress-plugin",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "sixa AG",
+                    "homepage": "https://sixa.ch"
+                }
+            ],
+            "description": "A plugin containing factory classes or methods for the Sixa projects.",
+            "homepage": "https://www.sixa.ch",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/sixach/wp-snippets/issues",
+                "source": "https://github.com/sixach/wp-snippets/tree/v1.7.2"
+            },
+            "install-path": "../sixach/wp-snippets"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
